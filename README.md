@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+Made using a starter template for [Learn Next.js](https://nextjs.org/learn) for the purpose of learning some more about NextJS.  A web application to manage life totals/speed/damage values of Universus card game.  Goal is to be able to use it across any phone for ease of use.
