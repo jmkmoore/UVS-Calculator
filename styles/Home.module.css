@@ -48,8 +48,17 @@
   margin-top: 3rem;
 }
 
+.damageGrid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
 .card {
-  margin: 1rem;
+  margin: 0rem;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
@@ -61,6 +70,42 @@
     color 0.15s ease,
     border-color 0.15s ease;
 }
+
+.damageCard {
+  margin: 0rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+
+.health {
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: center;
+  color: green;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.health:hover,
+.health:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
 
 .card:hover,
 .card:focus,
